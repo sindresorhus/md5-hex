@@ -1,0 +1,31 @@
+{
+  "name": "md5-hex",
+  "version": "0.0.0",
+  "description": "Create a MD5 hash with hex encoding",
+  "license": "MIT",
+  "repository": "sindresorhus/md5-hex",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hash",
+    "crypto",
+    "md5",
+    "hex",
+    "buffer"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
