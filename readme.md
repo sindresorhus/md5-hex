@@ -24,6 +24,18 @@ md5Hex(buffer);
 ```
 
 
+## API
+
+### md5Hex(input)
+
+#### input
+
+*Required*  
+Type: `buffer`, `string`
+
+Prefer buffers as they're faster to hash, but strings can be useful for small things.
+
+
 ## License
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
