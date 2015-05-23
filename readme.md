@@ -4,6 +4,8 @@
 
 *Please don't use a MD5 hash for anything sensitive!*
 
+Checkout [`hasha`](https://github.com/sindresorhus/hasha) if you need something more flexible.
+
 
 ## Install
 
