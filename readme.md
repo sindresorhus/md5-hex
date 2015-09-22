@@ -32,7 +32,6 @@ md5Hex(buffer);
 
 #### input
 
-*Required*  
 Type: `buffer`, `string`
 
 Prefer buffers as they're faster to hash, but strings can be useful for small things.
