@@ -32,9 +32,11 @@ md5Hex(buffer);
 
 #### input
 
-Type: `buffer`, `string`
+Type: `buffer`, `string`, `array` of `string`|`buffer`
 
 Prefer buffers as they're faster to hash, but strings can be useful for small things.
+
+Pass an array instead of concatenating strings and/or buffers. The output is the same, but arrays do not incur the overhead of concatenation.
 
 
 ## License
