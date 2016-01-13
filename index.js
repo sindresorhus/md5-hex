@@ -9,6 +9,10 @@ module.exports = function (input) {
 		hash.update(buf, inputEncoding);
 	};
 
+	if (arguments.length > 1) {
+		throw new Error('Too many arguments. Try specifying an array.');
+	}
+
 	if (Array.isArray(input)) {
 		input.forEach(update);
 	} else {
