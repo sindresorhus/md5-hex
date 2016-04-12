@@ -17,9 +17,9 @@ $ npm install --save md5-hex
 ## Usage
 
 ```js
-var fs = require('fs');
-var md5Hex = require('md5-hex');
-var buffer = fs.readFileSync('unicorn.png');
+const fs = require('fs');
+const md5Hex = require('md5-hex');
+const buffer = fs.readFileSync('unicorn.png');
 
 md5Hex(buffer);
 //=> '1abcb33beeb811dca15f0ac3e47b88d9'
@@ -32,7 +32,7 @@ md5Hex(buffer);
 
 #### input
 
-Type: `buffer`, `string`, `array` of `string`|`buffer`
+Type: `buffer` `string` `array[string|buffer]`
 
 Prefer buffers as they're faster to hash, but strings can be useful for small things.
 
@@ -41,4 +41,4 @@ Pass an array instead of concatenating strings and/or buffers. The output is the
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

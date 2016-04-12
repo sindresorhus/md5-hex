@@ -1,10 +1,10 @@
 import test from 'ava';
-import fn from './';
+import m from './';
 
 test(t => {
-	t.is(fn('unicorn'), '1abcb33beeb811dca15f0ac3e47b88d9');
-	t.is(fn(new Buffer('unicorn')), '1abcb33beeb811dca15f0ac3e47b88d9');
-	t.is(fn(['uni', 'corn']), '1abcb33beeb811dca15f0ac3e47b88d9');
-	t.is(fn(['uni', new Buffer('corn')]), '1abcb33beeb811dca15f0ac3e47b88d9');
-	t.throws(() => fn('uni', 'corn'), 'Too many arguments. Try specifying an array.');
+	t.is(m('unicorn'), '1abcb33beeb811dca15f0ac3e47b88d9');
+	t.is(m(new Buffer('unicorn')), '1abcb33beeb811dca15f0ac3e47b88d9');
+	t.is(m(['uni', 'corn']), '1abcb33beeb811dca15f0ac3e47b88d9');
+	t.is(m(['uni', new Buffer('corn')]), '1abcb33beeb811dca15f0ac3e47b88d9');
+	t.throws(() => m('uni', 'corn'), 'Too many arguments. Try specifying an array.');
 });
