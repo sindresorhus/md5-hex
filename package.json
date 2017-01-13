@@ -1,6 +1,6 @@
 {
   "name": "md5-hex",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Create a MD5 hash with hex encoding",
   "license": "MIT",
   "repository": "sindresorhus/md5-hex",
