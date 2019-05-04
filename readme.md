@@ -12,7 +12,7 @@ Checkout [`hasha`](https://github.com/sindresorhus/hasha) if you need something 
 ## Install
 
 ```
-$ npm install --save md5-hex
+$ npm install md5-hex
 ```
 
 
@@ -30,11 +30,11 @@ md5Hex(buffer);
 
 ## API
 
-### md5Hex(input)
+### md5Hex(data)
 
-#### input
+#### data
 
-Type: `Buffer` `string` `Buffer[]` `string[]`
+Type: `Buffer | string | Array<Buffer | string>`
 
 Prefer buffers as they're faster to hash, but strings can be useful for small things.
 
