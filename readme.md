@@ -34,7 +34,7 @@ md5Hex(buffer);
 
 #### data
 
-Type: `Buffer | Buffer[] | string | string[]`
+Type: `Buffer | string | Array<Buffer | string>`
 
 Prefer buffers as they're faster to hash, but strings can be useful for small things.
 

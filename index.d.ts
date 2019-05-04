@@ -18,6 +18,6 @@ md5Hex(buffer);
 //=> '1abcb33beeb811dca15f0ac3e47b88d9'
 ```
 */
-declare function md5Hex(data: Buffer | Buffer[] | string | string[]): string;
+declare function md5Hex(data: Buffer | string | ReadonlyArray<Buffer | string>): string;
 
 export = md5Hex;

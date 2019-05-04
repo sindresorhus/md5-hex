@@ -8,3 +8,4 @@ expectType<string>(md5Hex(buffer));
 expectType<string>(md5Hex([buffer]));
 expectType<string>(md5Hex('foo'));
 expectType<string>(md5Hex(['foo']));
+expectType<string>(md5Hex([buffer, 'foo']));
