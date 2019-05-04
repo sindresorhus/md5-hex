@@ -1,7 +1,7 @@
 'use strict';
 const crypto = require('crypto');
 
-module.exports = function (data) {
+module.exports = data => {
 	const hash = crypto.createHash('md5');
 
 	const update = buffer => {
@@ -9,12 +9,10 @@ module.exports = function (data) {
 		hash.update(buffer, inputEncoding);
 	};
 
-	if (arguments.length > 1) {
-		throw new Error('Too many arguments. Try specifying an array.');
-	}
-
 	if (Array.isArray(data)) {
-		data.forEach(update);
+		data.forEach(element => {
+			update(element);
+		});
 	} else {
 		update(data);
 	}

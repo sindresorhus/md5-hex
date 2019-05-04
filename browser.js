@@ -1,10 +1,10 @@
 'use strict';
 const md5OMatic = require('md5-o-matic');
 
-module.exports = input => {
-	if (Array.isArray(input)) {
-		input = input.join('');
+module.exports = data => {
+	if (Array.isArray(data)) {
+		data = data.join('');
 	}
 
-	return md5OMatic(input);
+	return md5OMatic(data);
 };

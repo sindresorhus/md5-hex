@@ -4,7 +4,7 @@
 
 *Please don't use MD5 hashes for anything sensitive!*
 
-Works in the browser too, when used with browserify/webpack.
+Works in the browser too, when used with a bundler like Webpack, Rollup, Browserify.
 
 Checkout [`hasha`](https://github.com/sindresorhus/hasha) if you need something more flexible.
 
@@ -21,6 +21,7 @@ $ npm install md5-hex
 ```js
 const fs = require('fs');
 const md5Hex = require('md5-hex');
+
 const buffer = fs.readFileSync('unicorn.png');
 
 md5Hex(buffer);

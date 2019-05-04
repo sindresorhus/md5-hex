@@ -26,8 +26,7 @@
 		"md5",
 		"hex",
 		"buffer",
-		"browser",
-		"browserify"
+		"browser"
 	],
 	"dependencies": {
 		"md5-o-matic": "^0.1.1"
