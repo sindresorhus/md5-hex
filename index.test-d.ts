@@ -1,8 +1,8 @@
 import {expectType} from 'tsd';
-import * as fs from 'fs';
+import {readFileSync} from 'fs';
 import md5Hex = require('.');
 
-const buffer = fs.readFileSync('unicorn.png');
+const buffer = readFileSync('unicorn.png');
 
 expectType<string>(md5Hex(buffer));
 expectType<string>(md5Hex([buffer]));
