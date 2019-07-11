@@ -1,10 +1,10 @@
 'use strict';
-const md5OMatic = require('md5-o-matic');
+const blueimpMd5 = require('blueimp-md5');
 
 module.exports = data => {
 	if (Array.isArray(data)) {
 		data = data.join('');
 	}
 
-	return md5OMatic(data);
+	return blueimpMd5(data);
 };
