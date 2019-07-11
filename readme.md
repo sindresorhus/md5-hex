@@ -47,8 +47,3 @@ Pass an array instead of concatenating strings and/or buffers. The output is the
 - [crypto-hash](https://github.com/sindresorhus/crypto-hash) - Tiny hashing module that uses the native crypto API in Node.js and the browser
 - [hasha](https://github.com/sindresorhus/hasha) - Hashing made simple
 - [hash-obj](https://github.com/sindresorhus/hash-obj) - Get the hash of an object
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

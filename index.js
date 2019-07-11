@@ -10,9 +10,9 @@ module.exports = data => {
 	};
 
 	if (Array.isArray(data)) {
-		data.forEach(element => {
+		for (const element of data) {
 			update(element);
-		});
+		}
 	} else {
 		update(data);
 	}

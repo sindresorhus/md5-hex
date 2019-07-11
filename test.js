@@ -1,6 +1,6 @@
 import test from 'ava';
-import md5Hex from '.';
 import md5HexBrowser from './browser';
+import md5Hex from '.';
 
 test('main', t => {
 	t.is(md5Hex('unicorn'), '1abcb33beeb811dca15f0ac3e47b88d9');
