@@ -1,4 +1,4 @@
-# md5-hex [![Build Status](https://travis-ci.org/sindresorhus/md5-hex.svg?branch=master)](https://travis-ci.org/sindresorhus/md5-hex)
+# md5-hex
 
 > Create a MD5 hash with hex encoding
 
