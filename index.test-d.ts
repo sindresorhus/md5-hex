@@ -1,10 +1,11 @@
-import {expectType} from 'tsd';
 import fs from 'node:fs';
+import {expectType} from 'tsd';
 import md5Hex from './index.js';
 
-const buffer = fs.readFileSync('unicorn.png');
+// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+const buffer: Uint8Array = fs.readFileSync('unicorn.png');
 
-expectType<string>(md5Hex(buffer)); // eslint-disable-line @typescript-eslint/no-unsafe-argument
+expectType<string>(md5Hex(buffer));
 expectType<string>(md5Hex([buffer]));
 expectType<string>(md5Hex('foo'));
 expectType<string>(md5Hex(['foo']));

@@ -12,11 +12,12 @@
 	},
 	"type": "module",
 	"exports": {
+		"types": "./index.d.ts",
 		"node": "./index.js",
 		"default": "./browser.js"
 	},
 	"engines": {
-		"node": ">=12"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd"
@@ -35,12 +36,12 @@
 		"browser"
 	],
 	"dependencies": {
-		"blueimp-md5": "^2.18.0"
+		"blueimp-md5": "^2.19.0"
 	},
 	"devDependencies": {
-		"@types/node": "^18.0.3",
-		"ava": "^3.15.0",
-		"tsd": "^0.22.0",
-		"xo": "^0.39.1"
+		"@types/node": "^20.8.7",
+		"ava": "^5.3.1",
+		"tsd": "^0.29.0",
+		"xo": "^0.56.0"
 	}
 }

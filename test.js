@@ -1,6 +1,7 @@
+import {Buffer} from 'node:buffer';
 import test from 'ava';
-import md5Hex from './index.js';
 import md5HexBrowser from './browser.js';
+import md5Hex from './index.js';
 
 test('main', t => {
 	t.is(md5Hex('unicorn'), '1abcb33beeb811dca15f0ac3e47b88d9');

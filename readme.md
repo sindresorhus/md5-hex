@@ -4,14 +4,14 @@
 
 *Please don't use MD5 hashes for anything sensitive!*
 
-Works in the browser too, when used with a bundler like Webpack, Rollup, Browserify.
+Works in the browser too, when used with a bundler (like Webpack, Rollup, Browserify).
 
 Checkout [`hasha`](https://github.com/sindresorhus/hasha) if you need something more flexible.
 
 ## Install
 
-```
-$ npm install md5-hex
+```sh
+npm install md5-hex
 ```
 
 ## Usage
